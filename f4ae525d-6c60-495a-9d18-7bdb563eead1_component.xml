@@ -1,0 +1,85 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">d5788074-d75d-4021-b1a3-0bf992928584</item>
+    <item name="Name" type_name="gh_string" type_code="10">Reverse</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Reverse a vector (multiply by -1).</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">f4ae525d-6c60-495a-9d18-7bdb563eead1</item>
+        <item name="Name" type_name="gh_string" type_code="10">Reverse</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Rev</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>480</X>
+              <Y>652</Y>
+              <W>65</W>
+              <H>28</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>511</X>
+              <Y>666</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Base vector</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e9dd9020-15d5-4239-8107-6c34a729cf02</item>
+            <item name="Name" type_name="gh_string" type_code="10">Vector</item>
+            <item name="NickName" type_name="gh_string" type_code="10">V</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">b72835ad-cee7-4566-96ba-d3db01103b67</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>482</X>
+                  <Y>654</Y>
+                  <W>14</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>490.5</X>
+                  <Y>666</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Reversed vector</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bd6e17d4-167b-4483-b11d-6792a3a3a680</item>
+            <item name="Name" type_name="gh_string" type_code="10">Vector</item>
+            <item name="NickName" type_name="gh_string" type_code="10">V</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>526</X>
+                  <Y>654</Y>
+                  <W>17</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>534.5</X>
+                  <Y>666</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

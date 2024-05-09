@@ -1,0 +1,53 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">51a2ede9-8f8c-4fdf-a375-999c2062eab7</item>
+    <item name="Name" type_name="gh_string" type_code="10">Colour Wheel</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">Creates a palette of related colours</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">62434d3f-e757-4e28-9ada-72cc3e7b9fe6</item>
+        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+        <item name="Name" type_name="gh_string" type_code="10">Colour Wheel</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Wheel</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">e8d7949a-3568-4060-8884-1cfdbcca2f20</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="2">
+        <chunk name="ColourGrips">
+          <items count="13">
+            <item name="Grip" index="0" type_name="gh_double" type_code="6">5.5713401346624778</item>
+            <item name="Grip" index="1" type_name="gh_double" type_code="6">0.57532299950783139</item>
+            <item name="Grip" index="2" type_name="gh_double" type_code="6">4.2079912937044162</item>
+            <item name="Grip" index="3" type_name="gh_double" type_code="6">2.3775677682062661</item>
+            <item name="Lum" index="0" type_name="gh_double" type_code="6">0.335977116025346</item>
+            <item name="Lum" index="1" type_name="gh_double" type_code="6">0.92126260574231389</item>
+            <item name="Range" index="0" type_name="gh_double" type_code="6">0.44634078895542478</item>
+            <item name="Range" index="1" type_name="gh_double" type_code="6">0.44634078895542478</item>
+            <item name="Range" index="2" type_name="gh_double" type_code="6">0.44634078895542478</item>
+            <item name="Range" index="3" type_name="gh_double" type_code="6">0.44634078895542478</item>
+            <item name="Sat" index="0" type_name="gh_double" type_code="6">0.48899708258570868</item>
+            <item name="Sat" index="1" type_name="gh_double" type_code="6">1</item>
+            <item name="Style" type_name="gh_int32" type_code="3">10</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1684</X>
+              <Y>494</Y>
+              <W>200</W>
+              <H>200</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1784</X>
+              <Y>594</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

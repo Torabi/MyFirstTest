@@ -1,0 +1,152 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+    <item name="Name" type_name="gh_string" type_code="10">SubD to Surface</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="14">
+        <item name="CodeInput" type_name="gh_string" type_code="10">from ghpythonlib.componentbase import executingcomponent as component
+import Grasshopper, GhPython
+import System
+import Rhino
+import rhinoscriptsyntax as rs
+
+class MyComponent(component):
+    
+    def RunScript(self, inSubD):
+        """Convert SubDivision Surfaces to NURBS Surfaces.
+            Inputs:
+                inSubD: SubD object to convert to surfaces
+            Output:
+                outSrf: Converted NURBS Surfaces (Brep Faces)"""
+                                        
+        import Rhino
+        import Rhino.Geometry as rg
+                                                                        
+        #Convert a SubD to a Brep using DefaultPacked Options
+        B=inSubD.ToBrep(rg.SubDToBrepOptions.DefaultPacked)
+                                                                        
+        #Extracting Brep faces
+        outSrf = []
+        for i in range(B.Faces.Count):
+            outSrf.append(B.Faces[i])
+                                                                            
+        print outSrf
+                                
+                                
+                
+                
+        
+        # return outputs if you have them; here I try it for you:
+        return outSrf
+</item>
+        <item name="Description" type_name="gh_string" type_code="10">GhPython provides a Python script component</item>
+        <item name="EditorLocation" type_name="gh_drawing_point" type_code="30">
+          <X>1011</X>
+          <Y>399</Y>
+        </item>
+        <item name="EditorSize" type_name="gh_drawing_size" type_code="32">
+          <W>786</W>
+          <H>611</H>
+        </item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
+        <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
+        <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
+          <bitmap length="1734">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</bitmap>
+        </item>
+        <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">bbac0800-75a9-4601-aae4-1867801b1a42</item>
+        <item name="IsAdvancedMode" type_name="gh_bool" type_code="1">true</item>
+        <item name="MarshalOutGuids" type_name="gh_bool" type_code="1">true</item>
+        <item name="Name" type_name="gh_string" type_code="10">SubD to Surface</item>
+        <item name="NickName" type_name="gh_string" type_code="10">SubD to Srf</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>44</X>
+              <Y>240</Y>
+              <W>116</W>
+              <H>28</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>103</X>
+              <Y>254</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="4">
+            <item name="InputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="InputId" index="0" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="InputParam" index="0">
+              <items count="11">
+                <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
+                <item name="Description" type_name="gh_string" type_code="10">SubD object to convert to surfaces</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">4b802591-b888-402e-b888-1906086c7331</item>
+                <item name="Name" type_name="gh_string" type_code="10">inSubD</item>
+                <item name="NickName" type_name="gh_string" type_code="10">inSubD</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
+                <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">58ebc080-9cff-48f7-90d9-cc226a76eb6f</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                <item name="TypeHintID" type_name="gh_guid" type_code="9">20f4ca9c-6c90-4fd6-ba8a-5bf9ca79db08</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>46</X>
+                      <Y>242</Y>
+                      <W>42</W>
+                      <H>24</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>68.5</X>
+                      <Y>254</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="OutputParam" index="0">
+              <items count="6">
+                <item name="Description" type_name="gh_string" type_code="10">Script output outSrf.</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">e3d5125d-5ca2-4efb-99b2-a5fda6cb07e7</item>
+                <item name="Name" type_name="gh_string" type_code="10">outSrf</item>
+                <item name="NickName" type_name="gh_string" type_code="10">outSrf</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>118</X>
+                      <Y>242</Y>
+                      <W>40</W>
+                      <H>24</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>138</X>
+                      <Y>254</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

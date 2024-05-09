@@ -1,0 +1,76 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">bc984576-7aa6-491f-a91d-e444c33675a7</item>
+    <item name="Name" type_name="gh_string" type_code="10">Graph Mapper</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Represents a numeric mapping function
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator
+Bezier curve evaluator</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">4dcdc0b1-1604-4041-803b-2061dde34747</item>
+        <item name="Name" type_name="gh_string" type_code="10">Graph Mapper</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Graph</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">75a6f541-a2cb-4b63-b0bb-c18c56b76365</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>116</X>
+              <Y>482</Y>
+              <W>100</W>
+              <H>100</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>116.5148</X>
+              <Y>482.8927</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="LocalGraph">
+          <items count="1">
+            <item name="LockGrips" type_name="gh_bool" type_code="1">false</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Domain">
+              <items count="4">
+                <item name="x0" type_name="gh_double" type_code="6">0</item>
+                <item name="x1" type_name="gh_double" type_code="6">1</item>
+                <item name="y0" type_name="gh_double" type_code="6">0</item>
+                <item name="y1" type_name="gh_double" type_code="6">1</item>
+              </items>
+            </chunk>
+            <chunk name="Graph">
+              <items count="10">
+                <item name="container_id" type_name="gh_guid" type_code="9">7026a6d2-9b94-4314-b6d3-6850eff942fe</item>
+                <item name="container_name" type_name="gh_string" type_code="10">Bezier</item>
+                <item name="cpx" index="0" type_name="gh_double" type_code="6">0</item>
+                <item name="cpx" index="1" type_name="gh_double" type_code="6">0</item>
+                <item name="cpx" index="2" type_name="gh_double" type_code="6">0.96946907043457031</item>
+                <item name="cpx" index="3" type_name="gh_double" type_code="6">1</item>
+                <item name="cpy" index="0" type_name="gh_double" type_code="6">0</item>
+                <item name="cpy" index="1" type_name="gh_double" type_code="6">0.69944971799850464</item>
+                <item name="cpy" index="2" type_name="gh_double" type_code="6">0.24583470821380615</item>
+                <item name="cpy" index="3" type_name="gh_double" type_code="6">1</item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

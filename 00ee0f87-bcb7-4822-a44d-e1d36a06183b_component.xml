@@ -1,0 +1,216 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">6da9f120-3ad0-4b6e-9fe0-f8cde3a649b7</item>
+    <item name="Name" type_name="gh_string" type_code="10">Gradient</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Represents a multiple colour gradient</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">00ee0f87-bcb7-4822-a44d-e1d36a06183b</item>
+        <item name="Name" type_name="gh_string" type_code="10">Gradient</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Gradient</item>
+      </items>
+      <chunks count="6">
+        <chunk name="Gradient">
+          <items count="3">
+            <item name="GripCount" type_name="gh_int32" type_code="3">3</item>
+            <item name="Linear" type_name="gh_bool" type_code="1">true</item>
+            <item name="Locked" type_name="gh_bool" type_code="1">false</item>
+          </items>
+          <chunks count="3">
+            <chunk name="Grip" index="0">
+              <items count="4">
+                <item name="Colour" index="0" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;204;53;146</ARGB>
+                </item>
+                <item name="Colour" index="1" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;204;53;146</ARGB>
+                </item>
+                <item name="Factor" type_name="gh_double" type_code="6">0.010858791880309582</item>
+                <item name="Id" type_name="gh_guid" type_code="9">be76f331-0399-4bb8-8bcd-f4a404ce5d33</item>
+              </items>
+            </chunk>
+            <chunk name="Grip" index="1">
+              <items count="4">
+                <item name="Colour" index="0" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;255;233;107</ARGB>
+                </item>
+                <item name="Colour" index="1" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;255;233;107</ARGB>
+                </item>
+                <item name="Factor" type_name="gh_double" type_code="6">0.483391135931015</item>
+                <item name="Id" type_name="gh_guid" type_code="9">cc5027bf-1686-41a4-a928-8ae65e9877f6</item>
+              </items>
+            </chunk>
+            <chunk name="Grip" index="2">
+              <items count="4">
+                <item name="Colour" index="0" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;89;92;171</ARGB>
+                </item>
+                <item name="Colour" index="1" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;89;92;171</ARGB>
+                </item>
+                <item name="Factor" type_name="gh_double" type_code="6">0.96137839555740356</item>
+                <item name="Id" type_name="gh_guid" type_code="9">2426e2e4-c7a0-4508-baae-0ff27e8ca1d8</item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1788</X>
+              <Y>330</Y>
+              <W>100</W>
+              <H>64</H>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Lower limit of gradient range</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9fc3f5b9-806e-4bc8-9e65-b26c12c7bf3d</item>
+            <item name="Name" type_name="gh_string" type_code="10">Lower limit</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L0</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1791</X>
+                  <Y>332</Y>
+                  <W>18</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1801.5</X>
+                  <Y>342</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Upper limit of gradient range</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">63a62109-b6f4-47aa-a374-7c7dfefb9f34</item>
+            <item name="Name" type_name="gh_string" type_code="10">Upper limit</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L1</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">60c26911-ccc5-479f-92a8-e254ef9b5148</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1791</X>
+                  <Y>352</Y>
+                  <W>18</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1801.5</X>
+                  <Y>362</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Parameter along gradient range</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e71ce26d-87d0-42ba-855b-02fe9e884032</item>
+            <item name="Name" type_name="gh_string" type_code="10">Parameter</item>
+            <item name="NickName" type_name="gh_string" type_code="10">t</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">78da3faf-5caa-45a1-9d2a-20b2088a2875</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1791</X>
+                  <Y>372</Y>
+                  <W>18</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1801.5</X>
+                  <Y>382</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Colour along gradient at parameter</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">dff3aa55-bb1c-41df-b85f-ad2ce11c9848</item>
+            <item name="Name" type_name="gh_string" type_code="10">Colour</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="1">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1888</X>
+                  <Y>330</Y>
+                  <W>0</W>
+                  <H>64</H>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
