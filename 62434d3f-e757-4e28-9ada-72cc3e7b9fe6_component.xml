@@ -5,10 +5,9 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="8">
+      <items count="7">
         <item name="Description" type_name="gh_string" type_code="10">Creates a palette of related colours</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">62434d3f-e757-4e28-9ada-72cc3e7b9fe6</item>
-        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
         <item name="Name" type_name="gh_string" type_code="10">Colour Wheel</item>
         <item name="NickName" type_name="gh_string" type_code="10">Wheel</item>
         <item name="Optional" type_name="gh_bool" type_code="1">false</item>

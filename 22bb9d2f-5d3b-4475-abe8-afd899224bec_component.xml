@@ -5,10 +5,11 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="8">
+      <items count="9">
         <item name="Access" type_name="gh_int32" type_code="3">2</item>
         <item name="Description" type_name="gh_string" type_code="10">A wire relay object</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">22bb9d2f-5d3b-4475-abe8-afd899224bec</item>
+        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
         <item name="Name" type_name="gh_string" type_code="10">Relay</item>
         <item name="NickName" type_name="gh_string" type_code="10">Breps</item>
         <item name="Optional" type_name="gh_bool" type_code="1">false</item>

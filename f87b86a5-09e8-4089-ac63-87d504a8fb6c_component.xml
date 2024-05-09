@@ -5,11 +5,10 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="6">
+      <items count="5">
         <item name="Description" type_name="gh_string" type_code="10">Get some statistics regarding a data tree.</item>
         <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">f87b86a5-09e8-4089-ac63-87d504a8fb6c</item>
-        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
         <item name="Name" type_name="gh_string" type_code="10">Tree Statistics</item>
         <item name="NickName" type_name="gh_string" type_code="10">TStat</item>
       </items>
@@ -29,11 +28,10 @@
           </items>
         </chunk>
         <chunk name="param_input" index="0">
-          <items count="9">
+          <items count="8">
             <item name="Access" type_name="gh_int32" type_code="3">2</item>
             <item name="Description" type_name="gh_string" type_code="10">Data Tree to analyze</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">30645765-037b-485d-8bdf-cada6608160b</item>
-            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
             <item name="Name" type_name="gh_string" type_code="10">Tree</item>
             <item name="NickName" type_name="gh_string" type_code="10">T</item>
             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -58,11 +56,10 @@
           </chunks>
         </chunk>
         <chunk name="param_output" index="0">
-          <items count="8">
+          <items count="7">
             <item name="Access" type_name="gh_int32" type_code="3">1</item>
             <item name="Description" type_name="gh_string" type_code="10">All the paths of the tree</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">2e96796c-099e-47af-9173-cbd2f382b08b</item>
-            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
             <item name="Name" type_name="gh_string" type_code="10">Paths</item>
             <item name="NickName" type_name="gh_string" type_code="10">P</item>
             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -86,11 +83,10 @@
           </chunks>
         </chunk>
         <chunk name="param_output" index="1">
-          <items count="8">
+          <items count="7">
             <item name="Access" type_name="gh_int32" type_code="3">1</item>
             <item name="Description" type_name="gh_string" type_code="10">The length of each branch in the tree</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">cb03cc33-03c0-47d8-8e73-5b476f71ed35</item>
-            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
             <item name="Name" type_name="gh_string" type_code="10">Length</item>
             <item name="NickName" type_name="gh_string" type_code="10">L</item>
             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -114,10 +110,9 @@
           </chunks>
         </chunk>
         <chunk name="param_output" index="2">
-          <items count="7">
+          <items count="6">
             <item name="Description" type_name="gh_string" type_code="10">Number of paths and branches in the tree</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">e8d7949a-3568-4060-8884-1cfdbcca2f20</item>
-            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
             <item name="Name" type_name="gh_string" type_code="10">Count</item>
             <item name="NickName" type_name="gh_string" type_code="10">C</item>
             <item name="Optional" type_name="gh_bool" type_code="1">false</item>

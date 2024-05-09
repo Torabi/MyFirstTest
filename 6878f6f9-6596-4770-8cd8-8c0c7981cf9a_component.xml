@@ -5,12 +5,10 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="8">
+      <items count="6">
         <item name="Description" type_name="gh_string" type_code="10">Allows for customized geometry previews</item>
-        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
         <item name="IncludeInRender" type_name="gh_bool" type_code="1">true</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">6878f6f9-6596-4770-8cd8-8c0c7981cf9a</item>
-        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
         <item name="Name" type_name="gh_string" type_code="10">Custom Preview</item>
         <item name="NickName" type_name="gh_string" type_code="10">Preview</item>
         <item name="ViewportFilter" type_name="gh_string" type_code="10"></item>
@@ -31,11 +29,10 @@
           </items>
         </chunk>
         <chunk name="param_input" index="0">
-          <items count="9">
+          <items count="8">
             <item name="Description" type_name="gh_string" type_code="10">Geometry to preview</item>
             <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">c90ba31d-e9b5-4367-961e-328671728ffc</item>
-            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
             <item name="Name" type_name="gh_string" type_code="10">Geometry</item>
             <item name="NickName" type_name="gh_string" type_code="10">G</item>
             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -60,10 +57,9 @@
           </chunks>
         </chunk>
         <chunk name="param_input" index="1">
-          <items count="9">
+          <items count="8">
             <item name="Description" type_name="gh_string" type_code="10">The material override</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">dd6cccbc-a17d-43ad-a493-23aeaf705091</item>
-            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
             <item name="Mapping" type_name="gh_int32" type_code="3">2</item>
             <item name="Name" type_name="gh_string" type_code="10">Material</item>
             <item name="NickName" type_name="gh_string" type_code="10">M</item>
