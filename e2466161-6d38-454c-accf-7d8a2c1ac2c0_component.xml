@@ -36,7 +36,7 @@
             <item name="Max" type_name="gh_double" type_code="6">100</item>
             <item name="Min" type_name="gh_double" type_code="6">10</item>
             <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-            <item name="Value" type_name="gh_double" type_code="6">30</item>
+            <item name="Value" type_name="gh_double" type_code="6">45</item>
           </items>
         </chunk>
       </chunks>

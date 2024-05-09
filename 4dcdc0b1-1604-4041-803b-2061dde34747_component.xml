@@ -59,12 +59,12 @@ Bezier curve evaluator</item>
                 <item name="container_id" type_name="gh_guid" type_code="9">7026a6d2-9b94-4314-b6d3-6850eff942fe</item>
                 <item name="container_name" type_name="gh_string" type_code="10">Bezier</item>
                 <item name="cpx" index="0" type_name="gh_double" type_code="6">0</item>
-                <item name="cpx" index="1" type_name="gh_double" type_code="6">0</item>
-                <item name="cpx" index="2" type_name="gh_double" type_code="6">0.96946907043457031</item>
+                <item name="cpx" index="1" type_name="gh_double" type_code="6">0.52370506525039673</item>
+                <item name="cpx" index="2" type_name="gh_double" type_code="6">0.53556877374649048</item>
                 <item name="cpx" index="3" type_name="gh_double" type_code="6">1</item>
                 <item name="cpy" index="0" type_name="gh_double" type_code="6">0</item>
-                <item name="cpy" index="1" type_name="gh_double" type_code="6">0.69944971799850464</item>
-                <item name="cpy" index="2" type_name="gh_double" type_code="6">0.24583470821380615</item>
+                <item name="cpy" index="1" type_name="gh_double" type_code="6">0.58390462398529053</item>
+                <item name="cpy" index="2" type_name="gh_double" type_code="6">0.43560791015625</item>
                 <item name="cpy" index="3" type_name="gh_double" type_code="6">1</item>
               </items>
             </chunk>
